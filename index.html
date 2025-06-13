@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS display + flex</title>
+    <style>
+      /* .nav{
+      display: flex;
+    } */
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      ul {
+        display: flex;
+      }
+      ul li:first-child {
+        font-weight: bold;
+      }
+      ul li {
+        background-color: yellow;
+        padding: 10px;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>Page Layout method</li>
+        <li><a href="html-table.html">html table</a></li>
+        <li><a href="inline-block.html">inline-block</a></li>
+        <li><a href="absolute-position.html">absolute-position</a></li>
+        <li><a href="float.html">float</a></li>
+        <li><a href="flex.html">flex</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
